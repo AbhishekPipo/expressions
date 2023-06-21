@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'expressions';
+  firstName = 'Sachin';
+  lastName = 'Pax';
+
+  title = "Angular Property Binding Example";
+
+  isDisabled = false;
+  public value = ''; // Assign an initial value
+
+ 
 }
